@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecell</title>
+    <link rel="stylesheet" href="ecell_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="ecell_clone.html"><img src="logo1.jpeg"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">EVENTS</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">TEAM</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Turning Ideas into<br> Enterprises</h1>
+        </div>
+        <div class="follow-us">
+            <p>Follow Us - Instagram | Twitter</p>
+        </div>   
+    </section>
+    <!-- about_us -->
+    <section class="about">
+        <h1>About Us</h1>
+        <img src="D:\WDA\IMG_0373.jpg">
+        <br>
+        <br>
+        <br>
+        <p>Entrepreneurship Cell(E-cell) is a non-profitable organisation run by the students of IIIT lucknow.We create awareness among students<br> about Entrepreneurship through our various programs like workshops,speaker sessions and other such events.We support the upcoming entrepreneurs <br>by providing them necessary resources such as mentors,consultancy,seed fund and networking.</p>
+        <br>
+        <p class="read">Read more   <i class="fas fa-arrow-right"></i></p>
+    </section>
+    <!-- our gallery -->
+    <section class="gallery">
+        <h1>Our Gallery</h1>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="gcol">
+                <img src="C:\Users\Dell\Downloads\DSC_1117.jpg">
+                <div class="layer">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+            </div>
+            <div class="gcol"><img src="C:\Users\Dell\Downloads\DSC_1055.jpg"></div>
+            <div class="gcol"><img src="C:\Users\Dell\Downloads\DSC_0502.jpg"></div>
+            <div class="gcol">
+                <img src="C:\Users\Dell\Downloads\DSC_0660.jpg">
+                <div class="layer">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- quotation -->
+    <section class="quotation">
+        <div class="content">
+            <div class="image-container">
+                <img src="C:\Users\Dell\Downloads\cimage.jpeg" alt="Your Image">
+            </div>
+            <div class="quote">
+                <i class="fas fa-quote-left fa-lg"></i>
+                <p>If you are born poor it's not your mistake, but if you die poor it's your mistake.<br><br>Bill Gates<br><span class="dashed">- CO FOUNDER OF MICROSOFT</span></p>
+            </div>
+        </div>
+        <div class="arrows">
+            <div class="layer1">
+                <i class="fas fa-arrow-left fa-lg"></i>
+            </div>
+            <div class="layer1">
+                <i class="fas fa-arrow-right fa-lg"></i>
+            </div>
+        </div>
+    </section>
+    <!-- sponsors -->
+    <section class="Sponsors">
+        <h1>Our Past Sponsors</h1>
+        <br>
+        <br>
+        <br>
+        <div class="row1">
+            <div class="con1">
+                <img src="D:\WDA\img3.jpeg">
+            </div>
+            <div class="con1">
+                <img src="D:\WDA\img4.jpeg">
+            </div>
+        </div>
+    </section>
+    <!-- collaborate -->
+    <section class="collaborate">
+        <div class="con2">
+            <img src="D:\WDA\img5.jpeg">
+        </div>  
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <div class="row">
+            <div class="fc1">
+                <ul>
+                    <li class="l1"><img src="D:\WDA\logo2.jpeg"></li>
+                    <br>
+                    <li>E-CELL</li>
+                    <li>IIIT LUCKNOW</li>
+                </ul>
+            </div>
+            <div class="fc1">
+                <ul>
+                    <li class="l2">Services</li>
+                    <br>
+                    <li>Home</li>
+                    <br>
+                    <li>About us</li>
+                    <br>
+                    <li>Events</li>
+                </ul>
+            </div>
+            <div class="fc1">
+                <ul>
+                    <li class="l2">Contact Us</li>
+                    <br>
+                    <li>IIIT Lucknow</li>
+                    <br>
+                    <li>+91 87967 56789</li>
+                    <br>
+                    <li>ecell@iiitl.ac.in</li>
+                </ul>
+            </div>
+            <div class="fc4">
+                <ul>
+                    <li class="l2">Social</li>
+                    <br>
+                    <li class="icons">
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                    </li>    
+                </ul>
+            </div>
+        </div>
+        <!-- scrollbutton -->
+        <div class="scroll-to-top" id="scrollToTop">
+            <div class="scroll-to-top-button" onclick="scrollToTop()">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+        </div>
+        <script>
+            window.onscroll = function() {
+                scrollFunction();
+            };
+    
+            function scrollFunction() {
+                const scrollToTop = document.getElementById("scrollToTop");
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    scrollToTop.style.display = "block";
+                } else {
+                    scrollToTop.style.display = "none";
+                }
+            }
+            function scrollToTop() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </section>
+</body>
+</html>
